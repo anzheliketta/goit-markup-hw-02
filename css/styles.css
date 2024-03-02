@@ -60,11 +60,18 @@ flex-direction: row;
 
 /*hero*/
 
+.hero {
+    box-sizing: content-box;
+    width: 1440px;
+    height: 600px;
+    background: #2e2f42;
+}
+
   .hero-title{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -92,7 +99,27 @@ flex-direction: row;
     background-color: #404bbf;
 }
 
+ .header-menu-link:hover{
+    color: #404bbf;
+  }
+  .header-menu-link:focus{
+    color: #404bbf;
+  }
+
 /*Features*/
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
    
 
   .features-subtitle {
@@ -114,12 +141,25 @@ flex-direction: row;
   }
 
   /*team*/
+  .section-sss {
+    background-color: #F4F4FD;
+  }
+  
+  .our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+  }
 
-  .image{
+  .image {
     background-color: #FFFFFF;
   }
 
-  .team-subtitle{
+  .team-subtitle {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -129,7 +169,7 @@ flex-direction: row;
     color: #2e2f42;
   }
 
-  .team-item-text{
+  .team-item-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -146,6 +186,7 @@ flex-direction: row;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
 }
