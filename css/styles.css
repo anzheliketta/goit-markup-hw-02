@@ -7,12 +7,12 @@ body {
 
  /*header*/
   
- .menu {
+.menu {
     display: flex;
     flex-direction: row;
-    }
+}
     
-    .logo {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -21,9 +21,9 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
       text-transform: uppercase;
-    }
+}
     
-    .studio {
+.studio {
       font-weight: 700;
       font-size: 18px;
       line-height: 1.16667;
@@ -31,52 +31,107 @@ body {
       text-transform: uppercase;
       color: #2e2f42;
       text-transform: uppercase;
-    }
+}
     
-    .menu-elements {
+.menu-elements {
     
     display: flex;
     flex-direction: column;
     background: #fff;
     text-align:  center;
     line-height: normal;
-    }
+}
     
-    .email-telefon {
+.email-telefon {
         background: #fff;
         color: #434455 ;
-      }
+}
       /* .menu-nav-index */
-      .menu-nav-index{
+
+.menu-nav-index{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
-      }
-        .menu-nav-index:hover{
+}
+        
+.menu-nav-index:hover{
         color: #404bbf;
       }
-      .menu-nav-index:focus{
+      
+.menu-nav-index:focus{
         color: #404bbf;
       }
      /* .menu-nav-index */
      
-    .contacts {
+.contacts {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
-    }
-    .social-links :hover {
-      color: #404bbf;
-    }
-    .social-links :focus {
-      color: #404bbf;
-    }
+}
     
+.social-links :hover {
+      color: #404bbf;
+}
+    
+.social-links :focus {
+      color: #404bbf;
+}
+
+
+
+
+/*hero*/
+
+.hero {
+    box-sizing: content-box;
+    width: 1440px;
+    height: 600px;
+    background: #2e2f42;
+}
+
+  .hero-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+  }
+
+  .hero-order-btn {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+  
+  }
+  
+  .hero-order-btn:hover {
+    background-color: #404BBF;
+    cursor: pointer;
+  
+  }
+
+  .hero-order-btn:focus {
+    background-color: #404bbf;
+}
+
+.header-menu-link:hover{
+    color: #404bbf;
+  }
+  .header-menu-link:focus{
+    color: #404bbf;
+  }
 
 /*Features*/
 
