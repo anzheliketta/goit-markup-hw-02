@@ -6,11 +6,6 @@ body {
   }
 
  /*header*/
-  
-.menu {
-    display: flex;
-    flex-direction: row;
-}
     
 .logo {
     font-family: "Raleway", sans-serif;
@@ -20,7 +15,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-      text-transform: uppercase;
+    text-transform: uppercase;
 }
     
 .studio {
@@ -34,9 +29,6 @@ body {
 }
     
 .menu-elements {
-    
-    display: flex;
-    flex-direction: column;
     background: #fff;
     text-align:  center;
     line-height: normal;
@@ -88,9 +80,6 @@ body {
 /*hero*/
 
 .hero {
-    box-sizing: content-box;
-    width: 1440px;
-    height: 600px;
     background: #2e2f42;
 }
 
@@ -134,21 +123,7 @@ body {
   }
 
 /*Features*/
-
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
    
-
   .features-subtitle {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -239,8 +214,6 @@ body {
 
 .footer {
      background: #2e2f42;
-    width: 1440px;
-    height: 312px;
 }
     
 .footer-text {
